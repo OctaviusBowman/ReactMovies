@@ -4,7 +4,6 @@ import _ from "lodash";
 
 const Pagination = props => {
   const { itemsCount, pageSize, onPageChange, currentPage } = props;
-  console.log(currentPage);
 
   // Result of division is a floating point number, so must return interger
   const pagesCount = Math.ceil(itemsCount / pageSize);
